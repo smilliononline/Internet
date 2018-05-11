@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 1px solid red;
+    vertical-align: baseline;
+} 
+.container{
+    width: 970px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.topRow {
+    width: 100%;
+    display: inline-block;
+    vertical-align: inline-block;
+}
+.topRow img {
+    width: 10%;
+    display: inline-block;
+}
+.topRow h1{
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 300%;
+}
+.topRowWWW{
+    font-size: 150%;
+    color: white;
+    background: radial-gradient(rgb(35, 35, 206), rgb(71, 156, 230));
+    padding: 5px;
+}
+.sideBox {
+    width: 20%;
+    font-weight: bold;
+}
+#two {
+    font-size: 80%;
+}
+.sideBox button {
+    background-color: rgb(35, 35, 206);
+    color: white;
+    border-ra
+}
