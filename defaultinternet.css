@@ -37,12 +37,13 @@
     width: 25%;
     display: inline-block;
     margin-left: 5px;
+    vertical-align: top;
 }
 .sideBarTop {
     margin-top: 20px;
     font-weight: bold;
     border-bottom: 3px solid gray;
-}
+}    
 #largeText {
     font-size: 125%;
     margin-bottom: 6px;
@@ -92,3 +93,53 @@
     color: white;
     font-weight: bold;
 }
+.mainContent{
+    width: 71%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 2px;
+    margin-top: 10px;
+}
+.mainTopRow {
+    vertical-align: top;
+    width: 100%;
+    display: inline-block;
+    margin-left: 0px;
+    
+}
+#homeDNS {
+    width: 40%;
+    vertical-align: top;
+    display: inline-block;
+}
+#homeDNS img {
+    width: 5%;
+}
+#homeDNS span {
+   vertical-align: top;
+}
+#contact {
+    display: inline-block;
+    width: 36%;
+    margin-left: 160px;
+    
+}
+#contact img {
+    width: 15%;
+    margin-left: 21%;
+    
+}
+#contactWords {
+    display: inline-block;
+    margin-left: 2px;
+
+}
+#contactWords p {
+    font-size: 60%;
+}
+#contactWords h2 {
+    color: rgb(7, 151, 151);
+}
+    
+    
+
