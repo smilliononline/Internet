@@ -33,3 +33,62 @@
     background: radial-gradient(rgb(35, 35, 206), rgb(71, 156, 230));
     padding: 5px;
 }
+.sideBar {
+    width: 25%;
+    display: inline-block;
+    margin-left: 5px;
+}
+.sideBarTop {
+    margin-top: 20px;
+    font-weight: bold;
+    border-bottom: 3px solid gray;
+}
+#largeText {
+    font-size: 125%;
+    margin-bottom: 6px;
+}
+.sideBarTop button {
+    margin-top: 20px;
+    width: 150px;
+}
+#blueBtn {
+    background-color: rgb(35, 35, 206);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 15%;
+}
+#orgBtn {
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 15%;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+.sideBarBottom {
+    height: 275px;
+    margin-top: 20px;
+    background-image: url(ad_background.png);
+    color: white;
+    text-align: center;
+}
+.sideBarBottom p {
+    padding-top: 7px;
+}
+.sideBarBottom img {
+    width: 30%;
+    display: block;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    margin-top: 15%;
+}
+.sideBarBottom button {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(7, 151, 151);
+    color: white;
+    font-weight: bold;
+}
