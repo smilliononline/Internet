@@ -116,9 +116,14 @@
 }
 .mainContent {
     display: inline-block;
-    width: 740px;
+    width: 765px;
     margin-left: 10px;
     vertical-align: top;
+}
+.subHeader {
+    width: 765px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 15px;
 }
 .subHeaderL {
     display: inline-block;
@@ -136,9 +141,9 @@
     margin-top: 8px;
 }
 .subHeaderR {
-    width: 300px;
     display: inline-block;
     vertical-align: top;
+    margin-left: 163px;
     
 }
 .subHeaderR img {
@@ -147,4 +152,62 @@
 .subHeaderR div {
     display: inline-block;
     vertical-align: top;
+}
+.subBody {
+    width: 765px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.subBody h3 {
+    margin-top: 3px;
+    color: blue;
+}
+.subBody p {
+    margin-top: 3px;
+}
+.subBody ul {
+    margin-top: 8px;
+    margin-left: 18px;
+}
+.subBody ul li span {
+    color: rgb(6, 158, 158);
+}
+.bold {
+    font-weight: bold;
+}
+.subBody img {
+    width: 350px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.subBody ol {
+    margin-top: 8px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+.footer {
+    width: 745px;
+    display: inline-block;
+    border-top: 5px solid blue;
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
+}
+.footer img {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+   
+}.footer div {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.footer p {
+    margin-top: 10px;
+}
+.footer span {
+    color: rgb(6, 158, 158);
 }
