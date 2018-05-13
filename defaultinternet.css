@@ -1,147 +1,150 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    outline: 1px solid red;
-    vertical-align: baseline;
-} 
-.container{
-    width: 970px;
+}
+.container {
+    width: 980px;
+    background: linear-gradient(lightgray, aliceblue);
     margin: 0 auto;
-    background-color: aliceblue;
 }
 .topRow {
-    width: 100%;
     display: inline-block;
-    vertical-align: inline-block;
-    
 }
 .topRow img {
-    width: 11%;
-   display:inline-block; 
-   margin-bottom: -23px;
-    
-}
-.topRow h1{
+    width: 100px;
     display: inline-block;
-    vertical-align: bottom;
-    font-size: 300%;
+    margin-bottom: -19px;
 }
-.topRowWWW{
-    font-size: 150%;
-    color: white;
-    background: radial-gradient(rgb(35, 35, 206), rgb(71, 156, 230));
-    padding: 5px;
-}
-.sideBar {
-    width: 25%;
+.topRow h1 {
     display: inline-block;
-    margin-left: 5px;
     vertical-align: top;
+    margin-top: 40px;
 }
-.sideBarTop {
-    margin-top: 20px;
+.topRow span {
+    color: blue;
+}
+.wwwBar {
+    background: radial-gradient(rgb(162, 172, 223), blue);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+.wwwBar h2 {
+    margin-left: 8px;
+}
+.sidebar {
+    width: 200px;
+    display: inline-block;
+}
+.topLevel h4 {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.topLevel h4 span {
+    color: red;
+}
+.topLevel p {
+    font-size: 80%;
+    margin-left: 5px;
+    margin-top: 5px;
     font-weight: bold;
-    border-bottom: 3px solid gray;
-}    
-#largeText {
-    font-size: 125%;
-    margin-bottom: 6px;
 }
-.sideBarTop button {
-    margin-top: 20px;
-    width: 150px;
+.topLevel p span {
+    color: blue;
 }
 #blueBtn {
-    background-color: rgb(35, 35, 206);
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: rgb(25, 23, 126);
     color: white;
     border-radius: 5px;
-    padding: 8px;
-    margin-left: 15%;
+    width: 190px;
+    border: none;
 }
 #orgBtn {
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
     background-color: orangered;
     color: white;
     border-radius: 5px;
-    padding: 8px;
-    margin-left: 15%;
-    margin-top: 3px;
-    margin-bottom: 20px;
+    width: 190px;
+    border: none;
 }
-.sideBarBottom {
-    height: 275px;
-    margin-top: 20px;
+.topLevel {
+    padding-bottom: 30px;
+    border-bottom: 2px solid darkgrey;
+    display: inline-block;
+}
+.bottomLevel {
+    margin-top: 30px;
     background-image: url(ad_background.png);
+    width: 190px;
+    height: 320px; 
+    margin-left: 5px; 
+    display: inline-block;     
+}
+#adbgd {
+    width: 100%;
+}
+.bottomLevel h3 {
     color: white;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 30px;
     text-align: center;
 }
-.sideBarBottom p {
-    padding-top: 7px;
+#nja {
+    width: 75px;
+    vertical-align: top;
+    margin-left: 50px;
+    margin-top: 60px;
 }
-.sideBarBottom img {
-    width: 30%;
-    display: block;
-    margin-left: 35%;
-    margin-bottom: 10px;
-    margin-top: 15%;
-}
-.sideBarBottom button {
-    width: 60%;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: rgb(7, 151, 151);
-    color: white;
-    font-weight: bold;
-}
-.mainContent{
-    width: 71%;
+.bottomLevel button {
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 2px;
+    vertical-align: bottom;
     margin-top: 10px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(10, 147, 201);
+    color: white;
+    border: none;
+    margin-left: 35px;
 }
-.mainTopRow {
+.mainContent {
+    display: inline-block;
+    width: 740px;
+    margin-left: 10px;
     vertical-align: top;
-    width: 100%;
-    display: inline-block;
-    margin-left: 0px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid gray;
-    
 }
-#homeDNS {
-    width: 40%;
+.subHeaderL {
+    display: inline-block;
+    width: 300px;    
+}
+.subHeaderL img{
+    width: 25px;
+    vertical-align: top;
+    margin-top: 2px;
+}
+.subHeaderL p {
+    color: blue;
     vertical-align: top;
     display: inline-block;
+    margin-top: 8px;
 }
-#homeDNS img {
-    width: 5%;
-}
-#homeDNS span {
-   vertical-align: top;
-}
-#contact {
+.subHeaderR {
+    width: 300px;
     display: inline-block;
-    width: 36%;
-    margin-left: 160px;
+    vertical-align: top;
     
 }
-#contact img {
-    width: 15%;
-    margin-left: 21%;
-    
+.subHeaderR img {
+    width: 60px;
 }
-#contactWords {
+.subHeaderR div {
     display: inline-block;
-    margin-left: 2px;
-
+    vertical-align: top;
 }
-#contactWords p {
-    font-size: 60%;
-}
-#contactWords h2 {
-    color: rgb(7, 151, 151);
-}
-    
-    
-
